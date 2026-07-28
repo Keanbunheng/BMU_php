@@ -11,5 +11,5 @@
 
     echo "<br>";
     $test = ["hello", "hsdfis", "Banana"];
-    var_dump($test,);
+    var_dump($test);
 ?>
