@@ -6,12 +6,14 @@ echo "hello </br>";
 $x = 10;
 $y = 20;
 
+
 // single line
 /*
 This is a multiline
 testing
 */
 print "Total = " . ($x + $y) . "</br>";
+
 echo "Total = ", ($x + $y)
     . " Hello bro<br>";
 
@@ -33,12 +35,13 @@ define("TWO", 'Second thing');
 define("THREE_3", 'third value');
 define("__THREE__", 'third value');
 
+
 // Invalid Constant names
 define("2TWO", 'third value');
 
 // ONE = 10;
 // echo Br.OlsdfE;
-echo br . OLSDFE . br;
+echo br . "TEst: " . OLSDFE . br;
 
 const NAME = "Yoo YOO";
 define("SITE_NAME", "My Website: ");
@@ -48,7 +51,7 @@ echo NAME . br;
 
 echo "<h1><br></h1>";
 
-echo "<h1>".BASE_URL."</BASE_URL>";
+echo "<h1>" . BASE_URL . "</BASE_URL>";
 
 echo "<h1><br></h1>";
 
@@ -69,7 +72,7 @@ echo "$x1. Current PHP Line number is " . __LINE__ . " . " . br;
 
 
 
-echo "$x1. Current PHP Dir name is " . __DIR__ . " . " . br;
+echo "$x1. Dir : Current PHP Dir name is " . __DIR__ . " . " . br;
 ?>
 <?php
 function hello()

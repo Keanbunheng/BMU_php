@@ -33,7 +33,7 @@
 
 <?php
     $handle = fopen("file.txt", "r");
-    echo fgets($handle);
+    echo fgets($handle).br;
     echo br.gettype($handle).br;
     fclose($handle);
 ?>

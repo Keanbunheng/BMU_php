@@ -1,17 +1,17 @@
             <!-- Control Statement -->
 
     <!-- If statement -->
-<!-- 
+
  <?php
     $d = Date("D");
     if ($d == "Tue") {
         echo "Have a nice weekend!";
     }
-?>  -->
+?> 
 
 
     <!-- If else statement -->
-<!-- 
+
 <?php
     $d = Date("D");
     if ($d == "Fri") {
@@ -19,12 +19,12 @@
     } else {
         echo "Have a nice day!";
     }
-?>  -->
+?> 
 
 
 
     <!-- If else if and else statement -->
-<!-- 
+
 <?php
     $d = Date("D");
     if ($d == "Fri") {
@@ -35,23 +35,23 @@
         echo "Have a nice day!";
     }
 ?> 
--->
+
 
 
     <!-- If else Statement in shorthand or Terdinary -->
-<!--
+
 <?php
     $name = isset($_GET['name']) ? $_GET['name'] : 'anonymous';
 ?>
 <?php
     $name = $_GET['name'] ?? 'anonymous';
 ?> 
--->
+
 
 
 
     <!-- Switch Case Statement -->
-<!-- 
+
 <?php
 $today = date("D");
 $data = "";
@@ -81,6 +81,5 @@ switch ($today) {
     default:
         $data= "No information available for today";
 }
-echo $data.br;
+echo $data;
 ?> 
--->
